@@ -1,15 +1,15 @@
 {
-  "type": "micro",
-  "wake_word": "hey_yoda",
-  "author": "custom",
-  "website": "",
-  "model": "https://raw.githubusercontent.com/jotadesigns/wake-up-word/refs/heads/main/hey_yoda.tflite",
-  "version": 2,
-  "trained_languages": ["es"],
-  "micro": {
-    "probability_cutoff": 0.5,
-    "sliding_window_size": 10,
-    "feature_step_size": 10,
-    "tensor_arena_size": 45000
-  }
+    "type": "micro",
+    "wake_word": "hey yoda",
+    "author": "jotadesigns",
+    "model": "hey_yoda.tflite",
+    "trained_languages": ["es"],
+    "version": 2,
+    "micro": {
+        "probability_cutoff": 0.5,
+        "feature_step_size": 10,
+        "sliding_window_size": 10,
+        "tensor_arena_size": 45000,
+        "minimum_esphome_version": "2024.7.0"
+    }
 }
