@@ -5,7 +5,7 @@
   "website": "",
   "version": 2,
   "micro_wake_word": {
-    "model": "https://github.com/jotadesigns/wake-up-word/blob/main/hey_yoda.tflite",
+    "model": "https://github.com/jotadesigns/wake-up-word/raw/main/hey_yoda.tflite",
     "probability_cutoff": 0.5,
     "sliding_window_average_size": 10,
     "tensor_arena_size": 45000
