@@ -3,7 +3,7 @@
   "wake_word": "hey_yoda",
   "author": "custom",
   "website": "",
-  "model": "hey_yoda.tflite",
+  "model": "https://raw.githubusercontent.com/jotadesigns/wake-up-word/refs/heads/main/hey_yoda.tflite",
   "version": 2,
   "trained_languages": ["es"],
   "micro": {
