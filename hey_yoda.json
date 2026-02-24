@@ -1,13 +1,15 @@
 {
-  "type": "micro_wake_word",
+  "type": "micro",
   "wake_word": "hey_yoda",
   "author": "custom",
   "website": "",
+  "model": "https://github.com/jotadesigns/wake-up-word/raw/main/hey_yoda.tflite",
   "version": 2,
+  "trained_languages": ["es"],
   "micro": {
-    "model": "https://github.com/jotadesigns/wake-up-word/raw/main/hey_yoda.tflite",
     "probability_cutoff": 0.5,
     "sliding_window_size": 10,
+    "feature_step_size": 10,
     "tensor_arena_size": 45000
   }
 }
